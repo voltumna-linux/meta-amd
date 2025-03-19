@@ -52,6 +52,7 @@ EXTRA_IMAGE_FEATURES ?= "debug-tweaks"
 
 PREFERRED_VERSION_linux-yocto = "6.6"
 PREFERRED_PROVIDER_virtual/kernel ?= "linux-yocto"
+IMAGE_FEATURES:remove=" x11-base"
 
 AMD_ENABLE_XEN = "0"
 
