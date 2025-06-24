@@ -14,5 +14,6 @@ SRC_URI:append:turin := " \
            file://prof.cfg \
            file://sdci.scc \
            file://sdci.cfg \
+           file://cxl.scc \
 	  "
 
