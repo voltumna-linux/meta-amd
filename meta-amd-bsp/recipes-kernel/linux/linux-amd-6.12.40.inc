@@ -16,3 +16,11 @@ SRC_URI:append:turin := " \
            file://sdci.cfg \
 	  "
 
+SRC_URI:append:e2005 := " \
+           file://amd_io.cfg \
+           file://prof.cfg \
+           file://gen_io.scc \
+           file://asf.scc \
+           file://i2c_slave.scc \
+          "
+
