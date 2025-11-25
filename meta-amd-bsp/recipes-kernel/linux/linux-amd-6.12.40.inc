@@ -1,3 +1,7 @@
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-amd-6.12/linux-amd-6.12.40:"
+SRCREV_meta = "52dd739a32215ffca801bc40daebee19a01b6f20"
+SRCREV_machine = "d90ecb2b1308b3e362ec4c21ff7cf0a051b445df"
+
 SRC_URI:append:siena := " \
            file://ntb.scc \
            file://ntb.cfg \

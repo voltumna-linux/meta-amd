@@ -1,4 +1,6 @@
-
+FILESEXTRAPATHS:prepend := "${THISDIR}/linux-amd-6.6/linux-amd-6.6.53:"
+SRCREV_meta = "dad768d3d6c23e46e232a5b20a7caad80c3dc0e4"
+SRCREV_machine = "4ad9fa5c30edc19acf05b2960dd686c29cbe75a2"
 
 SRC_URI:append:v3000 := " \
            file://xgbe.cfg \
