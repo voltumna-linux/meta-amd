@@ -10,3 +10,5 @@ patch 0051-spi-mtd-nand-changes-WA.patch
 patch 0052-spi-mtd-nor-changes-WA.patch
 patch 0053-spi-spi_amd-Remove-read-q-b-usage-on-DMA-buffer.patch
 patch 0054-spi-spi_amd-Add-HIDDMA-basic-write-support.patch
+patch 0074-spi-spi_amd-Add-PCI-based-driver-for-AMD-HID2-SPI-co.patch
+patch 0075-spi-spi_amd-Add-HIDDMA-basic-write-support1.patch
