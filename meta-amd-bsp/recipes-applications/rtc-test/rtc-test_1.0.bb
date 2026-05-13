@@ -6,7 +6,7 @@ LIC_FILES_CHKSUM = "file://rtc-test.c;md5=ab350f4f921bfc19f7b7938a07f5688a"
 
 SRC_URI = "file://rtc-test.c"
 
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 
 TARGET_CC_ARCH += "${LDFLAGS}"
 

@@ -8,7 +8,7 @@ SRC_URI = "file://smbus-test.c \
            file://i2c-dev.h \
           "
 
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 
 TARGET_CC_ARCH += "${LDFLAGS}"
 

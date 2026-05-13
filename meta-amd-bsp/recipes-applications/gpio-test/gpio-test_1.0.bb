@@ -11,7 +11,7 @@ SRC_URI = "\
 
 TARGET_CC_ARCH += "${LDFLAGS}"
 
-S = "${WORKDIR}"
+S = "${UNPACKDIR}"
 
 do_compile() {
 	${CC} gpio-test.c -o gpio-test -lreadline
