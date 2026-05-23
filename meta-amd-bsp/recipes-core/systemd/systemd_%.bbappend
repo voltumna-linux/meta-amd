@@ -1,6 +1,6 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-PACKAGECONFIG:append =" efi"
+PACKAGECONFIG:append = " efi"
 
 pkg_postinst:udev-hwdb:amd () {
 }
